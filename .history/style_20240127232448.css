@@ -24,8 +24,6 @@ body
     background-repeat: no-repeat;
     overflow: hidden; 
 }
-
-
 .container
 {
 padding: 10px 10%;
@@ -236,7 +234,6 @@ section.travelling h1{
     font-weight: 800;
     margin-bottom:3rem;
     text-align: center;
-    color: #ff004f;
 }
 section.travelling .card-wrapper{
     display:grid;
@@ -246,12 +243,6 @@ section.travelling .card-wrapper{
 section.travelling .card-wrapper .card{
     position:relative;
     height:350px;
-}
-section.travelling .card-wrapper .card img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
 }
 section.travelling .card-wrapper .card .overlay{
     position:absolute;

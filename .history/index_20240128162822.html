@@ -31,7 +31,7 @@
     </div>
   </div>
 
-
+  `
 
 
 
@@ -247,6 +247,31 @@
 </div>
 
 <script>
+    // Your existing JavaScript code
+
+document.addEventListener('DOMContentLoaded', function () {
+    var dynamicText = document.getElementById('dynamicText');
+    var nameSpan = document.querySelector('.name');
+    
+    var textOptions = [
+        "Swapnil Kundu",
+        "A part-time singer",
+        "A leader",
+        "A club enthusiast"
+    ];
+    
+    var currentIndex = 0;
+
+    function updateText() {
+        nameSpan.textContent = textOptions[currentIndex];
+        currentIndex = (currentIndex + 1) % textOptions.length;
+    }
+
+    nameSpan.addEventListener('mouseenter', function () {
+        updateText();
+    });
+});
+
     var tablinks = document.querySelectorAll(".tab-links");
     var tabcontents = document.querySelectorAll(".tab-contents");
 

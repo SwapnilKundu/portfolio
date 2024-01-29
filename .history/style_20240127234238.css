@@ -24,8 +24,6 @@ body
     background-repeat: no-repeat;
     overflow: hidden; 
 }
-
-
 .container
 {
 padding: 10px 10%;
@@ -236,7 +234,7 @@ section.travelling h1{
     font-weight: 800;
     margin-bottom:3rem;
     text-align: center;
-    color: #ff004f;
+    color: ;
 }
 section.travelling .card-wrapper{
     display:grid;

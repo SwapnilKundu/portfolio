@@ -24,8 +24,6 @@ body
     background-repeat: no-repeat;
     overflow: hidden; 
 }
-
-
 .container
 {
 padding: 10px 10%;
@@ -227,16 +225,14 @@ section.travelling{
     background: linear-gradient(to top, var(--light), var(--pure));
 }
 section.travelling p{
-    color:#9c9899;
+    color:var(--ternary);
     font-family:'Lato', sans-serif;
     margin-bottom:1rem;
     text-align: center;
 }
 section.travelling h1{
-    font-weight: 800;
+    font-weight: 600;
     margin-bottom:3rem;
-    text-align: center;
-    color: #ff004f;
 }
 section.travelling .card-wrapper{
     display:grid;
@@ -245,13 +241,7 @@ section.travelling .card-wrapper{
 }
 section.travelling .card-wrapper .card{
     position:relative;
-    height:350px;
-}
-section.travelling .card-wrapper .card img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    height:250px;
 }
 section.travelling .card-wrapper .card .overlay{
     position:absolute;
